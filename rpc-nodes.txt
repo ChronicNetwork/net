@@ -1,2 +1,2 @@
-https://rpc.chronicdashboard.com:443
+https://rpc.chronicdashboard.com
 http://167.99.176.188:26657
