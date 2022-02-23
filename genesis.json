@@ -1,7 +1,4 @@
 {
-  "jsonrpc": "2.0",
-  "id": -1,
-  "result": {
     "genesis": {
       "genesis_time": "2022-01-26T23:43:06.448765278Z",
       "chain_id": "chronic-grapes",
@@ -335,4 +332,3 @@
       }
     }
   }
-}
