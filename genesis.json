@@ -1,5 +1,4 @@
 {
-    "genesis": {
       "genesis_time": "2022-01-26T23:43:06.448765278Z",
       "chain_id": "chronic-grapes",
       "initial_height": "1",
@@ -331,4 +330,3 @@
         "vesting": {}
       }
     }
-  }
