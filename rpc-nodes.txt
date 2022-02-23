@@ -1,2 +1,2 @@
-https://rpc.chronicdashboard.com
+https://rpc.chronicdashboard.com:80
 http://167.99.176.188:26657
