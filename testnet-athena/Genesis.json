@@ -81,333 +81,331 @@
             "sequence": "0"
           }
         ]
-    },
-    "authz": {
-      "authorization": []
-    },
-    "bank": {
-      "params": {
-        "send_enabled": [],
-        "default_send_enabled": true
+    },    "authz": {
+        "authorization": []
       },
-      "balances": [
-        {
-          "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "29000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "100600000000000"
-            }
-          ]
+      "bank": {
+        "params": {
+          "send_enabled": [],
+          "default_send_enabled": true
         },
-        {
-          "address": "chronic193n6d655cs4vf5gxzh3vsn6k4wnrxu7gzj085t",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "200000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "1000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "140800000000000"
-            }
-          ]
-        },
-        {
-          "address": "chronic1xgm6uhsxsn06cj5fs4qqkuwmln3tx9exvx4z2e",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "99050000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "26720000000000"
-            }
-          ]
-        },
-        {
-          "address": "chronic1gjl059339t67u6ef2numw565k46yxs3f845q5c",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "200000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "100000000000"
-            }
-          ]
-        },
-        {
-          "address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "100000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "100800000000000"
-            }
-          ]
-        },
-        {
-          "address": "chronic156zxn2slkusma8f2resacd0rxeuz482edhk8uq",
-          "coins": [
-            {
-              "denom": "ucgas",
-              "amount": "420000000000"
-            },
-            {
-              "denom": "ucht",
-              "amount": "50880000000000"
-            }
-          ]
-        }
-    ],
-    "supply": [],
-    "denom_metadata": []
-  },
-  "capability": {
-    "index": "1",
-    "owners": []
-  },
-  "cht": {
-    "codes": [],
-    "contracts": [],
-    "gen_msgs": [],
-    "params": {
-      "code_upload_access": {
-        "address": "",
-        "permission": "Everybody"
-      },
-      "instantiate_default_permission": "Everybody",
-      "max_wasm_code_size": "1228800"
-    },
-    "sequences": []
-  },
-  "crisis": {
-    "constant_fee": {
-      "amount": "1000",
-      "denom": "cgas"
-    }
-  },
-  "distribution": {
-    "delegator_starting_infos": [],
-    "delegator_withdraw_infos": [],
-    "fee_pool": {
-      "community_pool": []
-    },
-    "outstanding_rewards": [],
-    "params": {
-      "base_proposer_reward": "0.010000000000000000",
-      "bonus_proposer_reward": "0.040000000000000000",
-      "community_tax": "0.020000000000000000",
-      "withdraw_addr_enabled": true
-    },
-    "previous_proposer": "",
-    "validator_accumulated_commissions": [],
-    "validator_current_rewards": [],
-    "validator_historical_rewards": [],
-    "validator_slash_events": []
-  },
-  "evidence": {
-    "evidence": []
-  },
-  "feegrant": {
-    "allowances": []
-  },
-  "genutil": {
-    "gen_txs": [
-      {
-        "body": {
-          "messages": [
-            {
-              "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
-              "description": {
-                "moniker": "mynode",
-                "identity": "",
-                "website": "",
-                "security_contact": "",
-                "details": ""
+        "balances": [
+          {
+            "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "29000000000"
               },
-              "commission": {
-                "rate": "0.100000000000000000",
-                "max_rate": "0.200000000000000000",
-                "max_change_rate": "0.010000000000000000"
-              },
-              "min_self_delegation": "1",
-              "delegator_address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
-              "validator_address": "chronicvaloper1jeak684l7ngarckh5dsadzsupsha3t7hef8c4p",
-              "pubkey": {
-                "@type": "/cosmos.crypto.ed25519.PubKey",
-                "key": "7A1Xh1XUPsGYHhzKcLBlE+NAUyTDqn8NZYu6QXsqjcQ="
-              },
-              "value": {
+              {
                 "denom": "ucht",
-                "amount": "100000000"
+                "amount": "100600000000000"
               }
-            }
-          ],
-          "memo": "685dd1bc5e89ba0e01ffe5983718db4d24ed79cd@167.99.9.158:26656",
-          "timeout_height": "0",
-          "extension_options": [],
-          "non_critical_extension_options": []
+            ]
+          },
+          {
+            "address": "chronic193n6d655cs4vf5gxzh3vsn6k4wnrxu7gzj085t",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "200000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "100000000000"
+              }
+            ]
+          },
+          {
+            "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "1000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "140800000000000"
+              }
+            ]
+          },
+          {
+            "address": "chronic1xgm6uhsxsn06cj5fs4qqkuwmln3tx9exvx4z2e",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "99050000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "26720000000000"
+              }
+            ]
+          },
+          {
+            "address": "chronic1gjl059339t67u6ef2numw565k46yxs3f845q5c",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "200000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "100000000000"
+              }
+            ]
+          },
+          {
+            "address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "100000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "100800000000000"
+              }
+            ]
+          },
+          {
+            "address": "chronic156zxn2slkusma8f2resacd0rxeuz482edhk8uq",
+            "coins": [
+              {
+                "denom": "ucgas",
+                "amount": "420000000000"
+              },
+              {
+                "denom": "ucht",
+                "amount": "50880000000000"
+              }
+            ]
+          }
+      ],
+      "supply": [],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "cht": {
+      "codes": [],
+      "contracts": [],
+      "gen_msgs": [],
+      "params": {
+        "code_upload_access": {
+          "address": "",
+          "permission": "Everybody"
         },
-        "auth_info": {
-          "signer_infos": [
-            {
-              "public_key": {
-                "@type": "/cosmos.crypto.secp256k1.PubKey",
-                "key": "AmJYW4wmNACBkKHXoZSUcY+8W7cNKlEygfbjggBmjtzM"
-              },
-              "mode_info": {
-                "single": {
-                  "mode": "SIGN_MODE_DIRECT"
+        "instantiate_default_permission": "Everybody",
+        "max_wasm_code_size": "1228800"
+      },
+      "sequences": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "amount": "1000",
+        "denom": "cgas"
+      }
+    },
+    "distribution": {
+      "delegator_starting_infos": [],
+      "delegator_withdraw_infos": [],
+      "fee_pool": {
+        "community_pool": []
+      },
+      "outstanding_rewards": [],
+      "params": {
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "community_tax": "0.020000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "previous_proposer": "",
+      "validator_accumulated_commissions": [],
+      "validator_current_rewards": [],
+      "validator_historical_rewards": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "genutil": {
+        "gen_txs": [
+          {
+            "body": {
+              "messages": [
+                {
+                  "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                  "description": {
+                    "moniker": "mynode",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
+                  "validator_address": "chronicvaloper1jeak684l7ngarckh5dsadzsupsha3t7hef8c4p",
+                  "pubkey": {
+                    "@type": "/cosmos.crypto.ed25519.PubKey",
+                    "key": "7A1Xh1XUPsGYHhzKcLBlE+NAUyTDqn8NZYu6QXsqjcQ="
+                  },
+                  "value": {
+                    "denom": "ucht",
+                    "amount": "100000000"
+                  }
                 }
-              },
-              "sequence": "0"
+              ],
+              "memo": "685dd1bc5e89ba0e01ffe5983718db4d24ed79cd@167.99.9.158:26656",
+              "timeout_height": "0",
+              "extension_options": [],
+              "non_critical_extension_options": []
+            },
+            "auth_info": {
+              "signer_infos": [
+                {
+                  "public_key": {
+                    "@type": "/cosmos.crypto.secp256k1.PubKey",
+                    "key": "AmJYW4wmNACBkKHXoZSUcY+8W7cNKlEygfbjggBmjtzM"
+                  },
+                  "mode_info": {
+                    "single": {
+                      "mode": "SIGN_MODE_DIRECT"
+                    }
+                  },
+                  "sequence": "0"
+                }
+              ],
+              "fee": {
+                "amount": [],
+                "gas_limit": "200000",
+                "payer": "",
+                "granter": ""
+              }
+            },
+            "signatures": [
+              "6/RHvdG2Aq48JWVoLAi4m6n8cHHi5LFnUnpzcXhzolZ1Z0gWAVbgy93LIKAIGpyzxWaEzTB2ki04/0ZFDI05eA=="
+            ]
+          }
+        ]
+      },
+      "gov": {
+        "deposit_params": {
+          "max_deposit_period": "172800s",
+          "min_deposit": [
+            {
+              "amount": "10000000",
+              "denom": "ucht"
             }
-          ],
-          "fee": {
-            "amount": [],
-            "gas_limit": "200000",
-            "payer": "",
-            "granter": ""
+          ]
+        },
+        "deposits": [],
+        "proposals": [],
+        "starting_proposal_id": "1",
+        "tally_params": {
+          "quorum": "0.334000000000000000",
+          "threshold": "0.500000000000000000",
+          "veto_threshold": "0.334000000000000000"
+        },
+        "votes": [],
+        "voting_params": {
+          "voting_period": "172800s"
+        }
+      },
+      "ibc": {
+        "channel_genesis": {
+          "ack_sequences": [],
+          "acknowledgements": [],
+          "channels": [],
+          "commitments": [],
+          "next_channel_sequence": "0",
+          "receipts": [],
+          "recv_sequences": [],
+          "send_sequences": []
+        },
+        "client_genesis": {
+          "clients": [],
+          "clients_consensus": [],
+          "clients_metadata": [],
+          "create_localhost": false,
+          "next_client_sequence": "0",
+          "params": {
+            "allowed_clients": [
+              "06-solomachine",
+              "07-tendermint"
+            ]
           }
         },
-        "signatures": [
-          "6/RHvdG2Aq48JWVoLAi4m6n8cHHi5LFnUnpzcXhzolZ1Z0gWAVbgy93LIKAIGpyzxWaEzTB2ki04/0ZFDI05eA=="
-        ]
-      }
-    ]
-  },
-  "gov": {
-    "deposit_params": {
-      "max_deposit_period": "172800s",
-      "min_deposit": [
-        {
-          "amount": "10000000",
-          "denom": "ucht"
+        "connection_genesis": {
+          "client_connection_paths": [],
+          "connections": [],
+          "next_connection_sequence": "0",
+          "params": {
+            "max_expected_time_per_block": "30000000000"
+          }
         }
-      ]
-    },
-    "deposits": [],
-    "proposals": [],
-    "starting_proposal_id": "1",
-    "tally_params": {
-      "quorum": "0.334000000000000000",
-      "threshold": "0.500000000000000000",
-      "veto_threshold": "0.334000000000000000"
-    },
-    "votes": [],
-    "voting_params": {
-      "voting_period": "172800s"
+      },
+      "mint": {
+        "minter": {
+          "annual_provisions": "0.000000000000000000",
+          "inflation": "0.130000000000000000"
+        },
+        "params": {
+          "blocks_per_year": "6311520",
+          "goal_bonded": "0.670000000000000000",
+          "inflation_max": "0.200000000000000000",
+          "inflation_min": "0.070000000000000000",
+          "inflation_rate_change": "0.130000000000000000",
+          "mint_denom": "cgas"
+        }
+      },
+      "params": null,
+      "slashing": {
+        "missed_blocks": [],
+        "params": {
+          "downtime_jail_duration": "600s",
+          "min_signed_per_window": "0.500000000000000000",
+          "signed_blocks_window": "100",
+          "slash_fraction_double_sign": "0.050000000000000000",
+          "slash_fraction_downtime": "0.010000000000000000"
+        },
+        "signing_infos": []
+      },
+      "staking": {
+        "delegations": [],
+        "exported": false,
+        "last_total_power": "0",
+        "last_validator_powers": [],
+        "params": {
+          "bond_denom": "ucht",
+          "historical_entries": 10000,
+          "max_entries": 7,
+          "max_validators": 100,
+          "unbonding_time": "1814400s"
+        },
+        "redelegations": [],
+        "unbonding_delegations": [],
+        "validators": []
+      },
+      "transfer": {
+        "denom_traces": [],
+        "params": {
+          "receive_enabled": true,
+          "send_enabled": true
+        },
+        "port_id": "transfer"
+      },
+      "upgrade": {},
+      "vesting": {}
     }
-  },
-  "ibc": {
-    "channel_genesis": {
-      "ack_sequences": [],
-      "acknowledgements": [],
-      "channels": [],
-      "commitments": [],
-      "next_channel_sequence": "0",
-      "receipts": [],
-      "recv_sequences": [],
-      "send_sequences": []
-    },
-    "client_genesis": {
-      "clients": [],
-      "clients_consensus": [],
-      "clients_metadata": [],
-      "create_localhost": false,
-      "next_client_sequence": "0",
-      "params": {
-        "allowed_clients": [
-          "06-solomachine",
-          "07-tendermint"
-        ]
-      }
-    },
-    "connection_genesis": {
-      "client_connection_paths": [],
-      "connections": [],
-      "next_connection_sequence": "0",
-      "params": {
-        "max_expected_time_per_block": "30000000000"
-      }
     }
-  },
-  "mint": {
-    "minter": {
-      "annual_provisions": "0.000000000000000000",
-      "inflation": "0.130000000000000000"
-    },
-    "params": {
-      "blocks_per_year": "6311520",
-      "goal_bonded": "0.670000000000000000",
-      "inflation_max": "0.200000000000000000",
-      "inflation_min": "0.070000000000000000",
-      "inflation_rate_change": "0.130000000000000000",
-      "mint_denom": "cgas"
-    }
-  },
-  "params": null,
-  "slashing": {
-    "missed_blocks": [],
-    "params": {
-      "downtime_jail_duration": "600s",
-      "min_signed_per_window": "0.500000000000000000",
-      "signed_blocks_window": "100",
-      "slash_fraction_double_sign": "0.050000000000000000",
-      "slash_fraction_downtime": "0.010000000000000000"
-    },
-    "signing_infos": []
-  },
-  "staking": {
-    "delegations": [],
-    "exported": false,
-    "last_total_power": "0",
-    "last_validator_powers": [],
-    "params": {
-      "bond_denom": "ucht",
-      "historical_entries": 10000,
-      "max_entries": 7,
-      "max_validators": 100,
-      "unbonding_time": "1814400s"
-    },
-    "redelegations": [],
-    "unbonding_delegations": [],
-    "validators": []
-  },
-  "transfer": {
-    "denom_traces": [],
-    "params": {
-      "receive_enabled": true,
-      "send_enabled": true
-    },
-    "port_id": "transfer"
-  },
-  "upgrade": {},
-  "vesting": {}
-}
-}
-                                                                                                                                                                                                                                                                                                                                                                                                
