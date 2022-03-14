@@ -1,9 +1,5 @@
-{
-  "jsonrpc": "2.0",
-  "id": -1,
-  "result": {
-    "genesis": {
-      "genesis_time": "2022-03-13T15:27:14.301643873Z",
+{  
+  "genesis_time": "2022-03-13T15:27:14.301643873Z",
       "chain_id": "athena-1",
       "initial_height": "1",
       "consensus_params": {
