@@ -34,31 +34,27 @@
           },
           "accounts": [
             {
-              "Name": "Foundation-Node-1",
               "@type": "/cosmos.auth.v1beta1.BaseAccount",
-              "address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
+              "address": "chronic1dqayqrnhrtjmtygx4hcet9j53ghh0qk7efx5he",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
             },
-            {
-                "Name": "Foundation-Node-2",
+            { 
               "@type": "/cosmos.auth.v1beta1.BaseAccount",
               "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
             },
-            {
-              "Name": "Foundation-Node-3",  
+            {  
               "@type": "/cosmos.auth.v1beta1.BaseAccount",
-              "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
+              "address": "chronic1fkl3rh3dxnc5xr8wtp9fslzcnxj97hcl0t5nyv",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
             },
             {
-              "Name": "Foundation-Node-4",
               "@type": "/cosmos.auth.v1beta1.BaseAccount",
               "address": "chronic156zxn2slkusma8f2resacd0rxeuz482edhk8uq",
               "pub_key": null,
@@ -66,9 +62,8 @@
               "sequence": "0"
             },
             {
-                "Name": "Foundation-Node-5",
               "@type": "/cosmos.auth.v1beta1.BaseAccount",
-              "address": "chronic1xgm6uhsxsn06cj5fs4qqkuwmln3tx9exvx4z2e",
+              "address": "chronic1wy5sgmdgqcpn5zwhcj6zwrj0wgd5kaeztvkrrd",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -1121,8 +1116,7 @@
           },
           "balances": [
             {
-                "name": "Foundation-Node-1",
-              "address": "chronic1jeak684l7ngarckh5dsadzsupsha3t7hflexnr",
+              "address": "chronic1dqayqrnhrtjmtygx4hcet9j53ghh0qk7efx5he",
               "coins": [
                 {
                   "denom": "ucgas",
@@ -1135,7 +1129,6 @@
               ]
             },
             {
-              "name": "Foundation-Node-2",
               "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
               "coins": [
                 {
@@ -1159,8 +1152,7 @@
               "end_time": ""
             },
             {
-              "name": "Foundation-Node-3",
-              "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
+              "address": "chronic1fkl3rh3dxnc5xr8wtp9fslzcnxj97hcl0t5nyv",
               "coins": [
                 {
                   "denom": "ucgas",
@@ -1183,8 +1175,7 @@
               "end_time": ""
             },
             {
-              "name": "Foundation-Node-4",
-              "address": "chronic156zxn2slkusma8f2resacd0rxeuz482edhk8uq",
+              "address": "chronic1uq5tact7tfqre4v9f9mp68enau5s4agyaynhgf",
               "coins": [
                 {
                   "denom": "ucgas",
@@ -1207,8 +1198,7 @@
               "end_time": ""
             },
             {
-              "name": "Foundation-Node-5",
-              "address": "chronic1xgm6uhsxsn06cj5fs4qqkuwmln3tx9exvx4z2e",
+              "address": "chronic1wy5sgmdgqcpn5zwhcj6zwrj0wgd5kaeztvkrrd",
               "coins": [
                 {
                   "denom": "ucgas",
@@ -1250,11 +1240,11 @@
               "coins": [
                 {
                   "denom": "ucgas",
-                  "amount": ""
+                  "amount": "1000000000000"
                 },
                 {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "18500000000000"
                 }
               ]
             },
@@ -1264,11 +1254,11 @@
               "coins": [
                 {
                   "denom": "ucgas",
-                  "amount": ""
+                  "amount": "1000000000000"
                 },
                 {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "18500000000000"
                 }
               ]
             },
@@ -1282,7 +1272,7 @@
                 },
                 {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "7000000000000"
                 }
               ]
             },
@@ -1291,31 +1281,12 @@
               "address": "",
               "coins": [
                 {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "7000000000000"
                 }
               ]
             },
             {
-              "name": "GENETICS DUDE",
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              
               "address": "chronic10c4ekgnuu8e27hvcltzuyfcaazvp7wexu8qdky",
               "coins": [
                 {
@@ -1329,7 +1300,6 @@
               ]
             },
             {
-              
               "address": "chronic10emhayxz9dmpa2cmcy7q4vcgrtz9rc0qz2svg4",
               "coins": [
                 {
@@ -1343,7 +1313,6 @@
               ]
             },
             {
-              
               "address": "chronic10ll8fgc8fl87e67ymt7z2dqc297k0y6xa53p2e",
               "coins": [
                 {
