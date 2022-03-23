@@ -658,6 +658,20 @@
               },
               {
                 "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                "address": "chronic1auk9sdvtz24eq60ukm26gg2mxssg8nlyzlscsh",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },  
+              {
+                "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                "address": "chronic1egquynlg7mmpvth740kj09vvdpqn0xe84la2dg",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              {
+                "@type": "/cosmos.auth.v1beta1.BaseAccount",
                 "address": "chronic1n43w6gujwz8xxwnruky9zlcey3yu24wz2n0a9c",
                 "pub_key": null,
                 "account_number": "0",
@@ -1278,8 +1292,15 @@
               ]
             },
             {
-              "name": "JAKE",
-              "address": "",
+              "address": "chronic1auk9sdvtz24eq60ukm26gg2mxssg8nlyzlscsh",
+              "coins": [
+                {
+                  "denom": "ucht",
+                  "amount": "7000000000000"
+                }
+              ]
+            },  {
+              "address": "chronic1egquynlg7mmpvth740kj09vvdpqn0xe84la2dg",
               "coins": [
                 {
                   "denom": "ucht",
