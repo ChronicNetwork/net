@@ -1231,11 +1231,11 @@
               "coins": [
                 {
                   "denom": "ucgas",
-                  "amount": ""
+                  "amount": "1000000000000"
                 },
                 {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "37000000000000"
                 }
               ],
               "original_vesting": [
