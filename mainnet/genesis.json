@@ -1103,14 +1103,8 @@
                 "pub_key": null,
                 "account_number": "0",
                 "sequence": "0"
-              },
-              {
-                "@type": "/cosmos.auth.v1beta1.BaseAccount",
-                "address": "",
-                "pub_key": null,
-                "account_number": "0",
-                "sequence": "0"
               }
+             
           ]
         },
         "authz": {
@@ -2782,98 +2776,8 @@
                   "amount": "10000000000"
                 }
               ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
-            },
-            {
-              "address": "",
-              "coins": [
-                {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
-                  "denom": "ucht",
-                  "amount": ""
-                }
-              ]
             }
+            
 
             
       
