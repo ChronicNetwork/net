@@ -1099,6 +1099,13 @@
               },
               {
                 "@type": "/cosmos.auth.v1beta1.BaseAccount",
+                "address": "chronic145selgw85ax7hm40tzpa44earvppjaa35pf4w8",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              {
+                "@type": "/cosmos.auth.v1beta1.BaseAccount",
                 "address": "",
                 "pub_key": null,
                 "account_number": "0",
@@ -2768,15 +2775,11 @@
               ]
             },
             {
-              "address": "",
+              "address": "chronic145selgw85ax7hm40tzpa44earvppjaa35pf4w8",
               "coins": [
                 {
-                  "denom": "ucgas",
-                  "amount": ""
-                },
-                {
                   "denom": "ucht",
-                  "amount": ""
+                  "amount": "10000000000"
                 }
               ]
             },
