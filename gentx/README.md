@@ -39,7 +39,7 @@ This will produce a file in the `~/.chtd/config/gentx/` folder that has a name w
           "validator_address": "cosmosvaloper1msz843gguwhqx804cdc97n22c4lllfkk5352lt",
           "pubkey": "<consensus_pubkey>",
           "value": {
-            "denom": "uatom",
+            "denom": "cht",
             "amount": "1000000"
           }
         }
