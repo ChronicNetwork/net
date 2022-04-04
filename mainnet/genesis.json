@@ -3032,7 +3032,7 @@
                 "min_signed_per_window": "0.025000000000000000",
                 "signed_blocks_window": "12000",
                 "slash_fraction_double_sign": "0.050000000000000000",
-                "slash_fraction_downtime": "0.001000000000000000"
+                "slash_fraction_downtime": "0.000100000000000000"
             },
             "signing_infos": []
         },
