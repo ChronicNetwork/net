@@ -2,7 +2,7 @@
     "genesis_time": "2022-04-16T00:00:00.0000000Z",
     "chain_id": "morocco-1",
     "gentxs_dir": "/root/.cht/config/gentx",
-    "initial_height": "",
+    "initial_height": "1",
     "node_id": "28607114f33d34d283bea1843338492adc48c3e6",
     "app_message": {
         "auth": {
