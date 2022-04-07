@@ -1,5 +1,4 @@
-{
-    "genesis": {
+ {
       "genesis_time": "2022-04-07T07:22:53.753562453Z",
       "chain_id": "morocco-1",
       "initial_height": "1",
@@ -3242,4 +3241,3 @@
         "vesting": {}
       }
     }
-  }
