@@ -9,7 +9,7 @@
                         "moniker": "test-morocco-1",
                         "identity": "0CB9A4E7643FF992",
                         "website": "chronicchain.io",
-                        "details": "This is a test example of details regarding yourself!"
+                        "details": "insert your details here"
                     },
                     "commission": {
                         "rate": "0.200000000000000000",
