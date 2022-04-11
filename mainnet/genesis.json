@@ -1084,7 +1084,8 @@
                     "address": "chronic1x8czjpdy2x9svz0s3u9hdgqxd06ta39y9npdtn",
                     "pub_key": null,
                     "sequence": "0"
-                },{
+                },
+                {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "0",
                     "address": "chronic19f0w9svr905fhefusyx4z8sf83j6et0gax833x",
@@ -2988,7 +2989,8 @@
                             "denom": "cgas"
                         }
                     ]
-                },      {
+                },      
+                {
                     "address": "chronic19f0w9svr905fhefusyx4z8sf83j6et0gax833x",
                     "coins": [
                         {
