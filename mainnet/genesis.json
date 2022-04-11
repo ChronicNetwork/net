@@ -2,6 +2,36 @@
     "genesis_time": "2022-04-16T00:00:00.0000000Z",
     "chain_id": "morocco-1",
     "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            }
+        }
+    },
     "app_message": {
         "auth": {
             "accounts": [
@@ -1237,14 +1267,7 @@
                         ]
                     }
                 }
-            ],
-            "params": {
-                "max_memo_characters": "256",
-                "sig_verify_cost_ed25519": "590",
-                "sig_verify_cost_secp256k1": "1000",
-                "tx_sig_limit": "7",
-                "tx_size_cost_per_byte": "10"
-            }
+            ]
         },
         "authz": {
             "authorization": []
@@ -2987,14 +3010,14 @@
                             "denom": "cgas"
                         }
                     ]
-                },      
+                },
                 {
                     "address": "chronic19f0w9svr905fhefusyx4z8sf83j6et0gax833x",
                     "coins": [
                         {
                             "amount": "10000000000",
                             "denom": "cgas"
-                        }, 
+                        },
                         {
                             "amount": "20000000000",
                             "denom": "cht"
