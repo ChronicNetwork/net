@@ -32,7 +32,6 @@
             }
         }
     },
-    "app_message": {
         "auth": {
             "accounts": [
                 {
@@ -3263,5 +3262,5 @@
         },
         "upgrade": {},
         "vesting": {}
+    
     }
-}
