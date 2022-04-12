@@ -3052,8 +3052,7 @@
       "allowances": []
     },
     "genutil": {
-      "gen_txs": []           
-        }
+      "gen_txs": []               
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -3109,9 +3108,7 @@
         "recv_sequences": [],
         "ack_sequences": [],
         "next_channel_sequence": "0"        
-      }
-            
-                
+      }          
     },
     "mint": {
       "minter": {
@@ -3165,4 +3162,5 @@
     },
     "upgrade": {},
     "vesting": {}
+  }
 }
