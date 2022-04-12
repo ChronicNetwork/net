@@ -3054,7 +3054,6 @@
     "genutil": {
       "gen_txs": []           
         }
-      ]
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -3166,5 +3165,4 @@
     },
     "upgrade": {},
     "vesting": {}
-  }
 }
