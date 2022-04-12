@@ -3114,15 +3114,15 @@
       "minter": {
         "inflation": "0.130000000000000000",
         "annual_provisions": "0.000000000000000000"
-          },
-        "params": {
-          "mint_denom": "cgas",
-          "inflation_rate_change": "0.130000000000000000",
-          "inflation_max": "0.200000000000000000",
-          "inflation_min": "0.070000000000000000",
-          "goal_bonded": "0.670000000000000000",
-          "blocks_per_year": "6311520"
-          }
+      },
+      "params": {
+        "mint_denom": "cgas",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+        }
     },
     "params": null,
     "slashing": {
@@ -3156,9 +3156,9 @@
       "port_id": "transfer",
       "denom_traces": [],
       "params": {
-        "send_enabled": true,
-        "receive_enabled": true     
-      }
+          "send_enabled": true,
+          "receive_enabled": true     
+        }
     },
     "upgrade": {},
     "vesting": {}
