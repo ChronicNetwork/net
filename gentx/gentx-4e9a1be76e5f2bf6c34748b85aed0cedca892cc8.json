@@ -24,7 +24,7 @@
         },
         "value": {
           "denom": "cht",
-          "amount": "100000"
+          "amount": "100000000"
         }
       }
     ],
@@ -44,3 +44,18 @@
           "single": {
             "mode": "SIGN_MODE_DIRECT"
           }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "ULefkIM6vdgTMp70vFTnFW8Br7HBnfXCQaIZrrgOdxpkIzSJtoC9o1DRk3XZUvhdhvugZPalyvQB00SH7tjpCg=="
+  ]
+}
