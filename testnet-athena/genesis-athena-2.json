@@ -579,7 +579,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "chronic1kauty92uvlh39cyjnvl2jegeaxdm4phray20uv",
+          "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -1155,7 +1155,7 @@
           "@type": "/cosmos.vesting.v1beta1.DelayedVestingAccount",
           "base_vesting_account": {
             "base_account": {
-              "address": "chronic1fl4kq4m2kkl9udytq407aey54k34fujcg65z9m",
+              "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
               "pub_key": null,
               "account_number": "0",
               "sequence": "0"
@@ -1783,7 +1783,7 @@
           ]
         },
         {
-          "address": "chronic1fl4kq4m2kkl9udytq407aey54k34fujcg65z9m",
+          "address": "chronic1pa7q2c79y5kzvp0sx4yp9sraa6en650kgc3yam",
           "coins": [
             {
               "denom": "ucgas",
@@ -2621,7 +2621,7 @@
           ]
         },
         {
-          "address": "chronic1kauty92uvlh39cyjnvl2jegeaxdm4phray20uv",
+          "address": "chronic19a5thfcxy54dh84snk5u3ryepfdsx2gfrqvmmt",
           "coins": [
             {
               "denom": "ucgas",
