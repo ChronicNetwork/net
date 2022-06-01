@@ -5,8 +5,8 @@ Below is a overview to manually upgrade Chronic Network Binary v1.0.0 to v1.1.0.
  
 
 ## 1. Backup all crucial validator files & state  
-[$HOME/.cht , previous binary version ]:
-### linux command example:     ` cp --backup $HOME/.cht $HOME/backups/ `
+ex: `$HOME/.cht , previous binary version ]`
+linux command example:` cp --backup $HOME/.cht $HOME/backups/ `
  
 
 ## 2. Once conensus has halted, fetch new upgrade files, we will be using make commands:
