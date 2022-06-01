@@ -1,15 +1,89 @@
-## ChronicNetwork v1.1 network upgrade:
+## Manual update guide for ChronicNetwork v1.1 network upgrade:
 
-Below is a overview to manually upgrade Chronic Network Binary v1.0.0 to v1.1.0. We will test this 
+This guide shows how to perform a manual update of the binaries after a governance proposal has been approved for a chain update.
+Below is a overview to manually upgrade Chronic Network Binary v1.0.0 to v1.1.0.
 
- 
+## About the upgrade
+
+Chronic Chain update for the following:
+- CosmosSDK v0.45.4
+- IBC v3.0
+- Cosmwasm v1.0.0
+
+These upgrades expands Chronic Networks primary features, including:
+- Stable Cosmwam Integrations
+- ICA [InterChain Accounts]
+- IBC [InterBlockchain Communication]
+functionnality.
+
+This is required for all your node (validators, sentries and any other you may have)
+
+## Prerequisites
+
+- Install make: ```sudo apt install make```
+
+## 1. Stop your validator
+First, make sure your node have reached at least the `754525` block height we will use to export the network state and restart from. You can configure your node in advance to stop at this height by setting the `halt-height` parameter in the `app.toml` file and restarting your node.
+In the logs, you will see : `ERR UPGRADE "intent-1" NEEDED at height: 754525`
+Also ensure that **no process managers (such as `systemd`) will attempt to restart it.**
+
+The exact procedure to stop your node depends on how you configured it so we can't really give a generic way here.
+
+Also double check it's properly stopped to avoid file corruption in the next steps.
+
+```
+sudo service cht stop
+```
 
 ## 1. Backup all crucial validator files & state  
-ex: `$HOME/.cht , previous binary version ]`
-linux command example:` cp --backup $HOME/.cht $HOME/backups/ `
+
+Before making any changes, it's prefered to create a backup copy of your current `CHT_HOME` directory.
+
+The following command can be used, assuming your `CHT_HOME` is `~/.cht/`:
+
+```bash
+cp -R ~/.cht/ ~/.cht_backup/
+```
+
+This would allow to revert back to your starting state in case something goes wrong on the way.
  
 
-## 2. Once conensus has halted, fetch new upgrade files, we will be using make commands:
+## 2. Install new chtd version:
+
+Clone the chtd repository on your machine
+
+```bash
+git clone https://github.com/ChronicNetwork/cht
+cd cht
+```
+You may already have the cht repository on your machine from the previous installation. If not, you can:
+
+```bash
+git clone https://github.com/ChronicNetwork/cht
+cd cht
+```
+
+If you already have an existing clone, place yourself in and:
+
+```bash
+git fetch
+git checkout
+```
+
+Now you can install the new chtd version:
+
+```bash
+make build
+make install
+
+# and verify you now have the correct version:
+chtd -h
+# must print chtd help message
+
+chtd version
+# must print v1.1.0
+```
+
 
 a- Install make: `apt install make`
 b- Remove old source repo: commonly `$HOME/chtd`
@@ -20,10 +94,23 @@ d- Build new binary:
 e- Install new binary: `make install`
 f- Check binary version: `chtd version --long`
 
+Make sure the version is correct before proceeding further!
+
+You're now ready to restart your node
+
 ## 5. Upload new genesis file:
  A link will be available in the network governance discord channel.
 
+## Verify upgrade completed
 
+Start the chtd service
 
+```
+sudo service chtd start
+```
 
+Ensure that everything is OK by checking the logs 
 
+```
+sudo journalctl -u chtd -f
+```
