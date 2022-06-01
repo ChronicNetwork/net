@@ -98,8 +98,6 @@ Make sure the version is correct before proceeding further!
 
 You're now ready to restart your node
 
-## 5. Upload new genesis file:
- A link will be available in the network governance discord channel.
 
 ## Verify upgrade completed
 
