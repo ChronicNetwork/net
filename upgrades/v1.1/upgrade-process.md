@@ -65,17 +65,25 @@ git checkout
 ```
 
 Now you can install the new chtd version:
+## 3. Update new go version:
+```bash
+go install golang.org/dl/go1.18.2@latest
+```
 
 ```bash
 make build
 make install
+```
 
 # and verify you now have the correct version:
-chtd -h
+```bash
+chtd version --long
 # must print chtd help message
+```
 
 chtd version
-# must print v1.1.0-1-g396f602
+```bash
+# must print  1.1.0-5-g5e60d52
 ```
 
 Make sure the version is correct before proceeding further!
