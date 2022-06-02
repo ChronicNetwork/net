@@ -21,10 +21,15 @@ This is required for all your node (validators, sentries and any other you may h
 ## Prerequisites
 
 - Install make: ```sudo apt install make```
+- Install Go 1.18.2: 
+```bash
+go install golang.org/dl/go1.18.2@latest
+go1.18.2 download
+```
 
 ## 1. Stop your validator
 First, make sure your node have reached at least the `754525` block height we will use to export the network state and restart from. You can configure your node in advance to stop at this height by setting the `halt-height` parameter in the `app.toml` file and restarting your node.
-In the logs, you will see : `ERR UPGRADE "intent-1" NEEDED at height: 754525`
+In the logs, you will see : `ERR UPGRADE "morocco-1" NEEDED at height: 754525`
 Also ensure that **no process managers (such as `systemd`) will attempt to restart it.**
 
 The exact procedure to stop your node depends on how you configured it so we can't really give a generic way here.
@@ -65,26 +70,21 @@ git checkout
 ```
 
 Now you can install the new chtd version:
-## 3. Update new go version:
-```bash
-go install golang.org/dl/go1.18.2@latest
-go1.18.2 download
-```
 
 ```bash
 make build
 make install
 ```
 
-# and verify you now have the correct version:
+# Verify you now have the correct version:
 ```bash
-chtd version --long
+chtd help
 # must print chtd help message
 ```
 
-chtd version
 ```bash
-# must print  1.1.0-5-g5e60d52
+chtd version
+# must print  1.1.0-xxxx
 ```
 
 Make sure the version is correct before proceeding further!
