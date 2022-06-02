@@ -104,7 +104,7 @@ You're now ready to restart your node
 Start the chtd service
 
 ```
-sudo service chtd start
+chtd start --unsafe-skip-upgrades 200
 ```
 
 Ensure that everything is OK by checking the logs 
