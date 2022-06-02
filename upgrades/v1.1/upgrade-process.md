@@ -88,7 +88,7 @@ You're now ready to restart your node
 Start the chtd service
 
 ```
-chtd start --unsafe-skip-upgrades 200
+chtd start --unsafe-skip-upgrades 754525
 ```
 
 Ensure that everything is OK by checking the logs 
