@@ -32,7 +32,7 @@ The exact procedure to stop your node depends on how you configured it so we can
 Also double check it's properly stopped to avoid file corruption in the next steps.
 
 ```
-sudo service cht stop
+sudo service chtd stop
 ```
 
 ## 1. Backup all crucial validator files & state  
