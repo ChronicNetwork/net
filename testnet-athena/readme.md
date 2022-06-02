@@ -50,6 +50,10 @@ EOF
 
 source $HOME/.profile
 ```
+### Download Starport: 
+```bash
+curl https://get.starport.network/starport! | bash
+```
 
 ### Clone the source repo:
 
@@ -62,8 +66,7 @@ git checkout
 ### Build the chain:
 
 ```bash
-cd cht
-make build && make install
+starport chain build
 ```
 
 ### Initialize the blockchain:
