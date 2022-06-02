@@ -50,12 +50,6 @@ This would allow to revert back to your starting state in case something goes wr
 
 ## 2. Install new chtd version:
 
-Clone the chtd repository on your machine
-
-```bash
-git clone https://github.com/ChronicNetwork/cht
-cd cht
-```
 You may already have the cht repository on your machine from the previous installation. If not, you can:
 
 ```bash
@@ -66,6 +60,7 @@ cd cht
 If you already have an existing clone, place yourself in and:
 
 ```bash
+cd cht
 git fetch
 git checkout
 ```
