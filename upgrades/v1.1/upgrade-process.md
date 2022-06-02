@@ -50,12 +50,6 @@ This would allow to revert back to your starting state in case something goes wr
 
 ## 2. Install new chtd version:
 
-Clone the chtd repository on your machine
-
-```bash
-git clone https://github.com/ChronicNetwork/cht
-cd cht
-```
 You may already have the cht repository on your machine from the previous installation. If not, you can:
 
 ```bash
@@ -81,18 +75,8 @@ chtd -h
 # must print chtd help message
 
 chtd version
-# must print v1.1.0
+# must print v1.1.0-1-g396f602
 ```
-
-
-a- Install make: `apt install make`
-b- Remove old source repo: commonly `$HOME/chtd`
-c- Download new source repo: `cd $HOME && git clone https://github.com/ChronicNetwork/cht`
-d- Build new binary: 
-`cd cht `
-`make build`
-e- Install new binary: `make install`
-f- Check binary version: `chtd version --long`
 
 Make sure the version is correct before proceeding further!
 
