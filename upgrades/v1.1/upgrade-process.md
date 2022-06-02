@@ -68,6 +68,7 @@ Now you can install the new chtd version:
 ## 3. Update new go version:
 ```bash
 go install golang.org/dl/go1.18.2@latest
+go1.18.2 download
 ```
 
 ```bash
