@@ -269,7 +269,7 @@
         "bond_denom": "ucht",
         "historical_entries": 10000,
         "max_entries": 7,
-        "max_validators": 64,
+        "max_validators": 68,
         "unbonding_time": "1814400s"
       },
       "redelegations": [],
