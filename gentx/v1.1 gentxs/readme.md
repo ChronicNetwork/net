@@ -29,7 +29,8 @@ A list of the total supply distribution between wallets can be found here [[link
 We encourage all participating validators to self-delegate just 1 CHT when creating a gentx initially
 
 ```jsx
-chtd gentx <key_name> 1000000ucht —chain-id morocco-1
+chtd add-genesis-account <key_name> 1000000ucht
+chtd gentx <key_name> 1000000ucht --chain-id morocco-1
 
 ```
 
