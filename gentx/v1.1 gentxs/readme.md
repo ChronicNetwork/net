@@ -6,12 +6,16 @@ It is encouraged for new validator operators who were not connected prior to the
 
 Links:
 
-> **v1.1 Genesis: [https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json](https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json)
-Gentxs Location:**
+> **v1.1 Genesis: 
+>
+>[https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json](https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json)**
+> **Gentxs Location:
 > 
 > 
 > **[https://github.com/ChronicNetwork/net/tree/main/gentx/v1.1%20gentxs](https://github.com/ChronicNetwork/net/tree/main/gentx/v1.1%20gentxs)
-> Exported Balances:
+> 
+>
+>Exported Balances:
 > [https://raw.githubusercontent.com/ChronicNetwork/net/main/accounts/exported-accounts-v1.1.md](https://raw.githubusercontent.com/ChronicNetwork/net/main/accounts/exported-accounts-v1.1.md)**
 > 
 
