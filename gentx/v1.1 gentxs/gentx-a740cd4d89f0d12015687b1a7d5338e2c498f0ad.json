@@ -1,1 +1,61 @@
-{"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgCreateValidator","description":{"moniker":"Chill Validation","identity":"3820B9E30B3BD99E","website":"www.chillvalidation.com","security_contact":"omsec@chillvalidation.com","details":"Chill Validation Services - We take care of the Validation so that you can Chill :)"},"commission":{"rate":"0.050000000000000000","max_rate":"0.200000000000000000","max_change_rate":"0.100000000000000000"},"min_self_delegation":"1","delegator_address":"chronic1584fv0mmx8mhea67tx2lhjtvkyg47klugjxup3","validator_address":"chronicvaloper1584fv0mmx8mhea67tx2lhjtvkyg47klucycz8n","pubkey":{"@type":"/cosmos.crypto.ed25519.PubKey","key":"1R3QaLaxIMVjrj/bJflkUs3P8IAGik6i8mkUOTOjJNI="},"value":{"denom":"ucht","amount":"1000000"}}],"memo":"a740cd4d89f0d12015687b1a7d5338e2c498f0ad@46.4.119.90:26656","timeout_height":"0","extension_options":[],"non_critical_extension_options":[]},"auth_info":{"signer_infos":[{"public_key":{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A6t5YEdcWYy4a04BzeIWhs+uIT90KqF6U7RRYpy0JiqG"},"mode_info":{"single":{"mode":"SIGN_MODE_DIRECT"}},"sequence":"0"}],"fee":{"amount":[],"gas_limit":"200000","payer":"","granter":""}},"signatures":["NEc6CniLWyZpPIz/CNz9aaMZbiGvRysmSsDmgftIzsBI6rKctIUo6QoeZ8f/MrnBmWYrCbwFKuCwj3BuaOG4iQ=="]}
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Chill Validation",
+          "identity": "3820B9E30B3BD99E",
+          "website": "www.chillvalidation.com",
+          "security_contact": "omsec@chillvalidation.com",
+          "details": "Chill Validation Services - We take care of the Validation so that you can Chill :)"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "chronic1584fv0mmx8mhea67tx2lhjtvkyg47klugjxup3",
+        "validator_address": "chronicvaloper1584fv0mmx8mhea67tx2lhjtvkyg47klucycz8n",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "1R3QaLaxIMVjrj/bJflkUs3P8IAGik6i8mkUOTOjJNI="
+        },
+        "value": {
+          "denom": "ucht",
+          "amount": "1000000"
+        }
+      }
+    ],
+    "memo": "a740cd4d89f0d12015687b1a7d5338e2c498f0ad@46.4.119.90:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A6t5YEdcWYy4a04BzeIWhs+uIT90KqF6U7RRYpy0JiqG"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "NEc6CniLWyZpPIz/CNz9aaMZbiGvRysmSsDmgftIzsBI6rKctIUo6QoeZ8f/MrnBmWYrCbwFKuCwj3BuaOG4iQ=="
+  ]
+}
