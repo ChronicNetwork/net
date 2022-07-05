@@ -1,4 +1,4 @@
-# Athena-1: Setting Up Chronic Chain Node or Validator
+# Athena-2: Setting Up Chronic Chain Test Network Node or Validator
 
 ## Run a fullnode / validator by compiling source code (not recommended for new users).
 
@@ -103,7 +103,7 @@ TBD
 
 ```bash
 	cd $HOME
-wget -O $HOME/.cht/config/genesis.json https://raw.githubusercontent.com/ChronicNetwork/net/main/testnet-beta/Genesis.json
+wget -O $HOME/.cht/config/genesis.json https://raw.githubusercontent.com/ChronicNetwork/net/main/testnet-athena/athena-2/genesis.json
 ```
 
 ### Start the network:
