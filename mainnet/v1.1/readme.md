@@ -93,8 +93,12 @@ chtd keys add foundation-node-1 --keyring-backend os --recover
 MY_VALIDATOR_ADDRESS=$(chtd keys show <KEY_NAME> -a --keyring-backend os)
 ```
 
-### Setting up address book:
+### Add Persistent Peers:
 
+```bash
+TBD
+```
+### Add Seed Nodes:
 ```bash
 TBD
 ```
@@ -104,6 +108,10 @@ TBD
 ```bash
 	cd $HOME
 wget -O $HOME/.cht/config/genesis.json https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json
+```
+### Set Minimum Gas Prices:
+```bash
+TBD
 ```
 
 ### Start the network:
