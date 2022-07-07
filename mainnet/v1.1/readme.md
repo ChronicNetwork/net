@@ -58,8 +58,8 @@ curl https://get.starport.network/starport! | bash
 ### Clone the source repo:
 
 ```bash
-git clone https://github.com/ChronicNetwork/chtd
-cd chtd
+git clone https://github.com/ChronicNetwork/cht
+cd cht
 git checkout
 ```
 
@@ -131,7 +131,7 @@ chtd tx staking create-validator \
   --amount=100000000ucht \
   --pubkey=$'(chtd tendermint show-validator)' \
   --moniker="your-moniker" \
-  --chain-id=athena-1 \
+  --chain-id=morocco-1 \
   --commission-rate="0.05" \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \
