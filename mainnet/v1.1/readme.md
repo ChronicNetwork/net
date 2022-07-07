@@ -34,7 +34,7 @@ sudo sysctl -p
 ### Install Go from source
 
 ```bash
-curl https://dl.google.com/go/go1.17.7.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
+curl https://dl.google.com/go/go1.18.2.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
 ```
 
 ### Update environment variables:  (copy & paste all)
