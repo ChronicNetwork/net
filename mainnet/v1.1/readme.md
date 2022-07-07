@@ -58,7 +58,7 @@ curl https://get.starport.network/starport! | bash
 ### Clone the source repo:
 
 ```bash
-git clone https://github.com/ChronicNetwork/cht
+git clone https://github.com/ChronicNetwork/cht.git
 cd cht
 git checkout
 ```
