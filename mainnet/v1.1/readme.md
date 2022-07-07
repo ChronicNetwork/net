@@ -72,7 +72,7 @@ starport chain build
 ### Initialize the blockchain:
 
 ```bash
-chtd init Foundation-node-1 —chain-id athena-1 
+chtd init Foundation-node-1 —chain-id morocco-1
 ```
 
 ### Create new key’s, Or, import existing wallet with BEP32 mnenomic phrase
