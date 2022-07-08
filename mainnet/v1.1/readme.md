@@ -129,7 +129,7 @@ If you want to participate in the active validator set , please reach out into t
 ```bash
 chtd tx staking create-validator \
   --amount=100000000ucht \
-  --pubkey=$'(chtd tendermint show-validator)' \
+  --pubkey=$(chtd tendermint show-validator) \
   --moniker="your-moniker" \
   --chain-id=morocco-1 \
   --commission-rate="0.05" \
